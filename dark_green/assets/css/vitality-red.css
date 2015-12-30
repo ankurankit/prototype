@@ -27,7 +27,7 @@ input.form-control {
   border-radius: 0 !important;
 }
 input.form-control:focus {
-  border-color: #8ab933;
+  border-color: #388E3C;
   box-shadow: none;
 }
 .btn,
@@ -39,8 +39,8 @@ input.form-control:focus {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #8ab933;
-  border-color: #8ab933;
+  background-color: #388E3C;
+  border-color: #388E3C;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -78,11 +78,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #8ab933;
-  border-color: #8ab933;
+  background-color: #388E3C;
+  border-color: #388E3C;
 }
 .btn-primary .badge {
-  color: #8ab933;
+  color: #388E3C;
   background-color: #ffffff;
 }
 body {
@@ -91,7 +91,7 @@ body {
   font-weight: 300;
 }
 a {
-  color: #8ab933;
+  color: #388E3C;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -133,7 +133,7 @@ hr.right {
   margin: 15px 0 15px auto;
 }
 hr.colored {
-  border-color: #8ab933;
+  border-color: #388E3C;
 }
 @media (min-width: 768px) {
   hr {
@@ -148,7 +148,7 @@ hr.colored {
   }
 }
 .text-primary {
-  color: #8ab933;
+  color: #388E3C;
 }
 .navbar-fixed-top {
   margin-bottom: 0;
@@ -159,12 +159,12 @@ hr.colored {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #8ab933;
+  color: #388E3C;
   background-color: white;
   border-radius: 0;
 }
 .navbar-default {
-  background-color: #8ab933;
+  background-color: #388E3C;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
@@ -452,7 +452,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #8ab933 !important;
+  background-color: #388E3C !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -533,7 +533,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #8ab933 !important;
+  background-color: #388E3C !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -648,7 +648,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #8ab933 !important;
+  background-color: #388E3C !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -789,9 +789,9 @@ aside.cta-quote span.quote {
   transition: all 0.5s;
 }
 .portfolio-filter #filters li .filter.active {
-  background-color: #8ab933;
+  background-color: #388E3C;
   color: white;
-  border-color: #8ab933;
+  border-color: #388E3C;
 }
 #portfoliolist .portfolio {
   width: 31%;
@@ -823,7 +823,7 @@ aside.cta-quote span.quote {
   bottom: -75px;
 }
 #portfoliolist .portfolio .portfolio-wrapper .caption .caption-bg {
-  background: #8ab933;
+  background: #388E3C;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -961,7 +961,7 @@ aside.cta-quote span.quote {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #8ab933;
+  color: #388E3C;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
@@ -1008,7 +1008,7 @@ footer.footer .copyright p.small {
 }
 .btn-outline-light:hover,
 .btn-outline-light:focus {
-  color: #8ab933;
+  color: #388E3C;
   background: white;
   outline: none;
 }
@@ -1023,8 +1023,8 @@ footer.footer .copyright p.small {
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
   color: white;
-  background: #8ab933;
-  border-color: #8ab933;
+  background: #388E3C;
+  border-color: #388E3C;
   outline: none;
 }
 .btn {
@@ -1051,7 +1051,7 @@ footer.footer .copyright p.small {
   text-transform: none;
 }
 .btn-full-width:hover {
-  background-color: #8ab933;
+  background-color: #388E3C;
   color: white;
 }
 .btn-full-width:focus {
