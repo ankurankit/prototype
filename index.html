@@ -39,7 +39,6 @@
 		
 		smoothscroll 			= create a browser smooth scroll
 		enable-animation		= enable WOW animations
-
 		bg-grey					= grey background
 		grain-grey				= grey grain background
 		grain-blue				= blue grain background
@@ -86,11 +85,9 @@
 
 			<!-- 
 				AVAILABLE HEADER CLASSES
-
 				Default nav height: 96px
 				.header-md 		= 70px nav height
 				.header-sm 		= 60px nav height
-
 				.noborder 		= remove bottom border (only with transparent use)
 				.transparent	= transparent header
 				.translucent	= translucent header
@@ -105,9 +102,7 @@
 				shadow-after-2 	= shadow 2 header bottom
 				shadow-before-3 = shadow 3 header top
 				shadow-after-3 	= shadow 3 header bottom
-
 				.clearfix		= required for mobile menu, do not remove!
-
 				Example Usage:  class="clearfix sticky header-sm transparent noborder"
 			-->
 			<div id="header" class="sticky shadow-after-3 clearfix">
@@ -135,7 +130,6 @@
 									
 									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
 									Direct Link Example: 
-
 									<li>
 										<a href="#">HOME</a>
 									</li>
@@ -760,15 +754,39 @@
 							<img class="pull-left" src="assets/images/demo/mockups/600x399/20-min.jpg" width="200" alt="" />
 							<p style="font-size:14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.<p>
 							<p style="font-size:14px;">Officia illum eos quos voluptate omnis deleniti molestiae numquam fugiat delectus aliquam ab.</p>
+							<div class="toggle toggle-transparent toggle-bordered-full">
+								<div class="toggle">
+									<label class="btn btn-default" onclick="toggleclass1()">LEARN MORE</label>
+									<div class="toggle-content" style="display:none;" id="toggle1">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa.<p>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div id="tab2" class="tab-pane fade">
 							<img class="pull-right" src="assets/images/demo/mockups/600x399/20-min.jpg" width="200" alt="" />
 							<p style="font-size:14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quidem voluptatem accusantium praesentium inventore quae illum.<p>
 							<p style="font-size:14px;">Officia illum eos quos voluptate omnis deleniti molestiae numquam fugiat delectus aliquam ab.</p>
+							<div class="toggle toggle-transparent toggle-bordered-full">
+								<div class="toggle">
+									<label class="btn btn-default" onclick="toggleclass2()">LEARN MORE</label>
+									<div class="toggle-content" style="display:none;" id="toggle2">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quidem voluptatem accusantium praesentium inventore quae illum.<p>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div id="tab3" class="tab-pane fade">
 							<p style="font-size:14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quidem voluptatem accusantium praesentium inventore quae illum. Lorem eos quos voluptate omnis deleniti molestiae numquam fugiat delectus.<p>
 							<p style="font-size:14px;">Officia illum eos quos voluptate omnis deleniti molestiae numquam fugiat delectus aliquam ab.</p>
+							<div class="toggle toggle-transparent toggle-bordered-full">
+								<div class="toggle">
+									<label class="btn btn-default" onclick="toggleclass3()">LEARN MORE</label>
+									<div class="toggle-content" style="display:none;" id="toggle3">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quidem voluptatem accusantium praesentium inventore quae illum. Lorem eos quos voluptate omnis deleniti molestiae numquam fugiat delectus.<p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -796,7 +814,7 @@
 										Vivas 2355 Australia<br>
 									</li>
 									<li class="footer-sprite phone">
-										Phone: 1-800-565-2390
+										Phone: 1-800-565-2390 FREE
 									</li>
 									<li class="footer-sprite email">
 										<a href="mailto:support@yourname.com">support@yourname.com</a>
@@ -1050,7 +1068,21 @@
 			}
 		</script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+		<script type="text/javascript">
+			function toggleclass1() {
+			    document.getElementById("toggle1").style.display = "block";
+			}		
+		</script>
+		<script type="text/javascript">
+			function toggleclass2() {
+			    document.getElementById("toggle2").style.display = "block";
+			}		
+		</script>
+		<script type="text/javascript">
+			function toggleclass3() {
+			    document.getElementById("toggle3").style.display = "block";
+			}		
+		</script>
 	</body>
 
 </html>
